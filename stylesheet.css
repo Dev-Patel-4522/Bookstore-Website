@@ -1,0 +1,149 @@
+
+body{
+    background: url('hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#logo{
+    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+/* ----- main-header -----*/
+#main-header{
+    display: inline-flexbox;
+    background: gradient(20deg, #5c5c5c,#8f8e8e);
+}
+
+a{
+    text-decoration: double;
+}
+
+
+ul{
+    
+    float: right;
+    
+}
+li{
+    display: inline-block;
+    color: #66CDAA;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-item {
+    
+    text-align: right;
+    color: #66CDAA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.menu-item:hover{
+    text-decoration: underline darkgray;
+    transition: 0.5s;
+}
+
+/* ------ CONTENT ------*/
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+.BookImg{
+    margin: 50px 20px 0px 30px;
+    width: auto;
+    height: 510px;
+    box-sizing: border-box rgb(0, 0, 0);
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.BookName{
+    text-align: justify;
+    font-size: 40px;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    color: #66CDAA;
+}
+p{
+    text-align: justify;
+    
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    color: #66CDAA;
+}
+.paragh{
+    text-align: center-right;
+    color: #5c5c5c;
+    font-size: 20px;
+    padding: 20px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-book{
+    margin: 10px 0px 0px 0px;
+    margin-bottom: 20px;
+    
+}
+.GFG {
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+#cart{
+    text-align: center;
+    padding: 15px;
+    color: black;
+    border: 1px solid;
+    font-family: 'Segoe UI', Tahoma,sans-serif;
+}
+.GFG:hover{
+    background-color: #c2c2c2;
+    color: #fff;
+    color: #000;
+    transition: 0.5s;
+    border: 1px so;
+}
+/* ----- Part 2 -----*/
+.content{
+    padding: 110px 0px 0px 0px;
+    color:#000;
+    justify-content: center;
+    
+}
+.ch-content{
+    color:#000;
+    background-color:#c2c2c2;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    margin-top: 3rem;
+    display: table-cell;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(0, 0fr); 
+}
+.ch-content:hover{
+    background-color: darkgrey;
+    color: #fff;
+    transition: 0.5s;
+}
+.book+.about-book{
+    justify-content: center;
+}
+
+
